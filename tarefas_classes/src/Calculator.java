@@ -1,10 +1,10 @@
-package src;
+package tarefas_classes.src;
 
 // Classe que representa uma calculadora simples
 public class Calculator {
     // Variáveis para armazenar os dois números
-    private int num1 = 0;
-    private int num2 = 0;
+    private int num1;
+    private int num2;
 
     // Método principal que cria uma instância da calculadora e executa as operações
     public static void main(String[] args) {
